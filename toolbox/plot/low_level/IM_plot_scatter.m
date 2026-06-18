@@ -1,4 +1,4 @@
-function [h, stats] = IM_scatter(X, Y, options)
+function [h, stats] = IM_plot_scatter(X, Y, options)
 %IM_scatter Gráfico de dispersión para validación entre datos observados y modelados.
 %
 %   h = IM_scatter(X, Y) genera un gráfico de dispersión comparando los
@@ -219,8 +219,7 @@ if options.ShowStats
         textY = lim2 - 0.10 * dx;
     else
         if numel(options.TextPosition) ~= 2
-            error("IM_scatter:InvalidTextPosition", ...
-                "TextPosition debe ser un vector numérico con la forma [x y].");
+            error("TextPosition debe ser un vector numérico con la forma [x y].");
         end
 
         textX = options.TextPosition(1);
