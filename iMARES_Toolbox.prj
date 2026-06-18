@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="D:\RECOPE\10_Scripts\iMARES-Scripts\iMARES_Toolbox.prj" location="D:\RECOPE\10_Scripts\iMARES-Scripts" name="iMARES_Toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="3129145136" file="D:\RECOPE\10_Scripts\iMARES-Scripts\iMARES_Toolbox.prj" location="D:\RECOPE\10_Scripts\iMARES-Scripts" name="iMARES_Toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>iMARES Toolbox</param.appname>
     <param.authnamewatermark>IMARES UCR</param.authnamewatermark>
     <param.email />
@@ -84,7 +84,9 @@
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}\.git</file>
       <file>${PROJECT_ROOT}\.gitignore</file>
+      <file>${PROJECT_ROOT}\images</file>
       <file>${PROJECT_ROOT}\README.md</file>
+      <file>${PROJECT_ROOT}\release</file>
       <file>${PROJECT_ROOT}\toolbox</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
